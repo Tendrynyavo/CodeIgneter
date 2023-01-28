@@ -15,9 +15,6 @@
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?=base_url('client/liste') ?>">Client</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="ajouter.jsp">Ajouter</a>
-            </li>
             <form class="d-flex" action="<?=base_url('client/search') ?>" method="post">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="customer_name">
                 <button class="btn btn-outline-success" type="submit">Search</button>
