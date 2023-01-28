@@ -12,6 +12,7 @@
     <!-- Header -->
     <div class="container px-3 bg-dark rounded shadow">
         <ul class="nav m-3 p-3">
+            <h1 class="text-light">Sakila</h1>
             <li class="nav-item">
                 <a class="nav-link text-white" href="<?=base_url('client/liste') ?>">Client</a>
             </li>
